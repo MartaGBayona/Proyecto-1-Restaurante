@@ -1,4 +1,4 @@
-Proyecto 1-Restaurante
+# **Proyecto 1-Restaurante**
 
 Información:
 
