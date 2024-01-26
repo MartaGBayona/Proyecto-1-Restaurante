@@ -1,0 +1,19 @@
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navbar {
+    padding-left: 4em;
+    padding-right: 4em;
+}
+.nav-link {
+    color: brown;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    background-color: brown;
+    color: whitesmoke;
+    transition: 0.3s;
+}
