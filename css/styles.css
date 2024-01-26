@@ -1,12 +1,17 @@
 
 body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar {
     padding-left: 4em;
     padding-right: 4em;
 }
+
 .nav-link {
     color: brown;
     transition: 0.3s;
@@ -16,4 +21,22 @@ body {
     background-color: brown;
     color: whitesmoke;
     transition: 0.3s;
+}
+
+#indexImage {
+    width: 161em;
+}
+
+
+.thumbnail { 
+    position: relative; 
+} 
+
+.textCenter { 
+    position: absolute; 
+    top: 45%; 
+    left: 0; 
+    width: 100%; 
+    color: black;
+    font-size: xx-large;
 }
