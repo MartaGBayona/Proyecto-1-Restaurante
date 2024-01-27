@@ -56,6 +56,7 @@ body {
     text-decoration: underline;
 }
 
+
 /*paginaContacto*/
 .titleContact {
     font-size: xx-large;
@@ -66,17 +67,16 @@ body {
 .btn {
     background-color: #a52a2ab7;
     border-color: #a52a2ab7;
+    color: white;
 }
 
 .btn:hover {
     background-color: #a52a2ade;
     border-color: #a52a2ade;
+    color: white;
+    box-shadow: none;
 }
 
-.map {
-    display: flex;
-    flex-wrap: wrap;
-}
 
 .infoContact {
     font-size: x-large;
@@ -86,7 +86,18 @@ body {
     font-weight: 700;
 }
 
+/*paginamenu*/
 
+.menuCard {
+    color: #a52a2ab7;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.card {
+    border: 0;
+}
 
 
 
