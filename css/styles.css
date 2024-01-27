@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Gentium Book Plus', serif;
 
 }
 
@@ -12,7 +13,7 @@ body {
 
 .nav-link:hover {
     background-color: #a52a2ab7;
-    color: whitesmoke;
+    color: white;
     transition: 0.3s;
 }
 
@@ -32,8 +33,9 @@ body {
     top: 45%; 
     left: 0; 
     width: 100%; 
-    color: black;
-    font-size: xx-large;
+    color: white;
+    font-size: xxx-large;
+    font-weight: 700;
 }
 
 /*ppaginaInfo*/
@@ -50,7 +52,27 @@ body {
 
 .nameFooter {
     font-size: xx-large;
+    font-weight: 700;
+    text-decoration: underline;
 }
+
+/*paginaContacto*/
+.titleContact {
+    font-size: xx-large;
+    font-weight: 700;
+    color: #a52a2ab7;
+}
+
+.btn {
+    background-color: #a52a2ab7;
+    border-color: #a52a2ab7;
+}
+
+.btn:hover {
+    background-color: #a52a2ade;
+    border-color: #a52a2ade;
+}
+
 
 
 
