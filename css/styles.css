@@ -43,6 +43,14 @@ body {
     margin-top: 3em;
 }
 
+.imageBook:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.imageBook {
+    transition: 0.5s;
+}
 /*Footer*/
 
 #piePagina {
@@ -97,6 +105,16 @@ body {
 
 .card {
     border: 0;
+}
+
+.imgMenu {
+    transition: 0.5s;
+    border-radius: 2em;
+}
+
+.imgMenu:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 
