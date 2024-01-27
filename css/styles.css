@@ -73,6 +73,18 @@ body {
     border-color: #a52a2ade;
 }
 
+.map {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.infoContact {
+    font-size: x-large;
+}
+
+.titleContactMap {
+    font-weight: 700;
+}
 
 
 
