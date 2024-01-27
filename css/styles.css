@@ -1,24 +1,17 @@
 
 body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    height: 100vh;
-    width: 100vw;
-    margin: 0;
-    padding: 0;
+
 }
 
-.navbar {
-    padding-left: 4em;
-    padding-right: 4em;
-}
-
+/*header*/
 .nav-link {
-    color: brown;
+    color: #a52a2ab7;
     transition: 0.3s;
 }
 
 .nav-link:hover {
-    background-color: brown;
+    background-color: #a52a2ab7;
     color: whitesmoke;
     transition: 0.3s;
 }
@@ -32,6 +25,8 @@ body {
     position: relative; 
 } 
 
+
+
 .textCenter { 
     position: absolute; 
     top: 45%; 
@@ -40,3 +35,27 @@ body {
     color: black;
     font-size: xx-large;
 }
+
+/*ppaginaInfo*/
+.container-fluid {
+    margin-top: 3em;
+}
+
+/*Footer*/
+
+#piePagina {
+    background-color: #a52a2ab7;
+    color: white;
+}
+
+.nameFooter {
+    font-size: xx-large;
+}
+
+
+
+
+
+
+
+
