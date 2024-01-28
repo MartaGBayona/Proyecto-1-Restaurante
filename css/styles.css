@@ -8,6 +8,11 @@ body {
 }
 
 /*header*/
+
+.navbar{
+    flex-wrap: nowrap;
+}
+
 .nav-link {
     color: #a52a2ab7;
     transition: 0.3s;
@@ -18,28 +23,6 @@ body {
     color: white;
     transition: 0.3s;
 }
-
-
-.wrap {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: url(/img/villa_misterios_pompeya.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-.wrap-texto {
-    margin: 5em;
-    color: white;
-    font-size: xx-large;
-    text-align: center;
-    font-weight: 700;
-    width: 50%;
-}
-
 
 
 /*ppaginaInfo*/
@@ -128,6 +111,10 @@ body {
 
 
 /*pagina Index*/
+
+.indexTextTop {
+    padding-bottom: 5em;
+}
 
 .titleIndexTextTop {
     color: #a52a2ab7;
