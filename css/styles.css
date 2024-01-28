@@ -55,6 +55,10 @@ body {
 .imageBook {
     transition: 0.5s;
 }
+
+.textInfo {
+    font-size: large;
+}
 /*Footer*/
 
 #piePagina {
@@ -139,7 +143,6 @@ body {
     width: 21em;
     justify-content: center;
     align-items: center;
-    border-radius: 2em;
     transition: 0.5s;
 }
 
