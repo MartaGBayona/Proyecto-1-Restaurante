@@ -1,85 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
 
-    <link rel="stylesheet" href="./css/styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+
     <header>
-        <nav class="navbar navbar-light bg-white">
-            <a class="navbar-brand" href="./index.html">
-                <img class="logo" src="./img/logo.png" width="90" height="90" alt="logo">
-            </a>
-            <ul class="nav">
-                <li class="nav-item">
-                    <a class="nav-link active" href="./index.html">Aurea Mensa</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./pages/info.html">De Re Coquinaria</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./pages/menu.html">Carta</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./pages/contact.html">Contacto</a>
-                </li>
-            </ul>
-        </nav>
+      <nav role="navigation" class="navbar navbar-light bg-white">
+        <a class="navbar-brand" href="./index.html">
+          <img
+            class="logo"
+            src="./img/logo.png"
+            width="90"
+            height="90"
+            alt="logo"
+          />
+        </a>
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="./index.html">Aurea Mensa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/info.html">De Re Coquinaria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/menu.html">Carta</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/contact.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-    <div id="box-search">
-        <div class="thumbnail text-center">
-            <img id="indexImage" src="./img/villa_misterios_pompeya.jpg" class="img-fluid " alt="Responsive image">
-            <div class="textCenter">AUREA MENSA</div>
+
+    <section>
+      <div class="wrap container-fluid">
+        <div class="wrap-texto">
+          <div>AUREA MENSA</div>
         </div>
-    </div>
+      </div>
+    </section>
+
+      <section class="indexTextTop ">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm">
+            </div>
+            <div class="col-sm">
+              <div class="titleIndexTextTop">
+                AUREA MENSA
+              </div>
+              <div class="subtitleIndexTextTop">
+                Imagina un rincón encantado donde los muros de piedra guardan secretos de la antigüedad y los aromas de especias y hierbas danzan en el aire como susurros del pasado. En este lugar mágico, un restaurante inspirado en la esencia misma de la comida de la antigua Roma espera para transportarte a una época de grandiosidad y deleite culinario.
+              </div>
+            </div>
+            <div class="col-sm">
+              <img class="imageIndexTop" src="./img/promana.jpeg" alt="image">
+            </div>
+            <div class="col-sm">
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <section>
+      <div class="text-center titleIndexBottom">NUESTROS PRODUCTOS</div>
+      <br>
+      <div
+        id="carouselExampleSlidesOnly"
+        class="carousel slide"
+        data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-interval="5000">
+            <img src="./img/aceitunasBottomIndex.png" class="d-block w-100" alt="image" />
+          </div>
+          <div class="carousel-item" data-interval="5000">
+            <img src="./img/ciruelasBottomIndex.png" class="d-block w-100" alt="image" />
+          </div>
+          <div class="carousel-item" data-interval="5000">
+            <img src="./img/panBottomIndex.png" class="d-block w-100" alt="image" />
+          </div>
+          <div class="carousel-item" data-interval="5000">
+            <img src="./img/lentejasBottomIndex.png" class="d-block w-100" alt="image" />
+          </div>
+        </div>
+      </div>
+    </section>
 
     <footer id="piePagina">
-        <div class="container-fluid text-center">
-            <div class="row">
-                <div class="col-sm">
-                    <P class="nameFooter">
-                        AUREA MENSA
-                    </P>
-                    <p>
-                        Una experiencia imperial
-                    </p>
-                </div>
-                <div class="col-sm">
-                    Una posibilidad única de disfrutar de la gastronomía de la antigua Roma en pleno siglo XXI. Rememorarás los sabores y gustos culinarios de nuestros ancestros en un entorno totalmente inmersivo.
-                </div>
-                <div class="col-sm">
-                    <p>
-                        Dirección:
-                    </p>
-                    <p>
-                        C.Almacera 1, Alboraya, Valencia.
-                    </p>
-                    <p>
-                        Horario:
-                    </p>
-                    <p>
-                        Martes a Domingo, de 13:30 a 20:00
-                    </p>
-                </div>
-            </div>
+      <div class="container-fluid text-center">
+        <div class="row">
+          <div class="col-sm d-flex justify-content-center align-items-center">
+            <p class="nameFooter">AUREA MENSA</p>
+          </div>
+          <div class="col-sm d-flex justify-content-center align-items-center">
+            Una posibilidad única de disfrutar de la gastronomía de la antigua
+            Roma en pleno siglo XXI. Rememorarás los sabores y gustos culinarios
+            de nuestros ancestros en un entorno totalmente inmersivo.
+          </div>
+          <div class="col-sm">
+            <p>Dirección:</p>
+            <p>C.Almacera 1, Alboraya, Valencia.</p>
+            <p>Horario:</p>
+            <p>Martes a Domingo, de 13:30 a 20:00</p>
+          </div>
         </div>
+      </div>
     </footer>
 
-
-
-
-
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+
 body {
     font-family: 'Gentium Book Plus', serif;
+
 
 }
 
@@ -17,26 +19,28 @@ body {
     transition: 0.3s;
 }
 
-#indexImage {
-    width: 161em;
+
+.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(/img/villa_misterios_pompeya.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
-
-.thumbnail { 
-    position: relative; 
-} 
-
-
-
-.textCenter { 
-    position: absolute; 
-    top: 45%; 
-    left: 0; 
-    width: 100%; 
+.wrap-texto {
+    margin: 5em;
     color: white;
-    font-size: xxx-large;
+    font-size: xx-large;
+    text-align: center;
     font-weight: 700;
+    width: 50%;
 }
+
+
 
 /*ppaginaInfo*/
 .container-fluid {
@@ -119,6 +123,34 @@ body {
 
 
 
+/*pagina Index*/
 
+.titleIndexTextTop {
+    color: #a52a2ab7;
+    font-size: xx-large;
+    font-weight: 700;
+}
 
+.subtitleIndexTextTop {
+    font-size: large;
+}
 
+.imageIndexTop {
+    width: 21em;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2em;
+    transition: 0.5s;
+}
+
+.imageIndexTop:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.titleIndexBottom {
+    margin-top: 2em;
+    color: #a52a2ab7;
+    font-size: xx-large;
+    font-weight: 700;
+}
