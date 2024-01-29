@@ -29,30 +29,6 @@ body {
 }
 
 
-/*ppaginaInfo*/
-.container-fluid {
-    margin-top: 3em;
-}
-
-.imageBook:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
-}
-
-.imageBook {
-    transition: 0.5s;
-}
-
-.textInfo {
-    font-size: large;
-}
-/*Footer*/
-
-#piePagina {
-    background-color: #a52a2ab7;
-    color: white;
-}
-
 .nameFooter {
     font-size: xx-large;
     font-weight: 700;
@@ -161,4 +137,27 @@ body {
     color: #a52a2ab7;
     font-size: xx-large;
     font-weight: 700;
+}
+
+.container-fluid {
+    margin-top: 3em;
+}
+
+.imageBook:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.imageBook {
+    transition: 0.5s;
+}
+
+.textInfo {
+    font-size: large;
+}
+/*Footer*/
+
+#piePagina {
+    background-color: #a52a2ab7;
+    color: white;
 }
