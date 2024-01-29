@@ -1,15 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carta</title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
+
 <body>
     <header>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../img/logo.png" width="70" height="70" class="d-inline-block align-top" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!--    <header>
         <nav class="navbar navbar-light bg-white">
             <a class="navbar-brand" href="../index.html">
                 <img src="../img/logo.png" width="90" height="90" alt="logo">
@@ -26,7 +54,9 @@
                 </li>
             </ul>
         </nav>
-    </header>
+    </header>-->
+
+
 
     <div class="container-fluid ">
         <div class="row">
@@ -38,23 +68,14 @@
         </div>
     </div>
 
-    <!--    <section>
-        <div class="wrap container-fluid">
-            <div class="wrap-texto">
-                <div>NUESTRA CARTA</div>
-            </div>
-        </div>
-    </section>-->
 
-
-
-    <section class="container menuC">
+    <section class="container">
         <div>
             <p class="menuCard">ENTRANTES</p>
         </div>
         <div class="row">
-            <div class="col-sm">
-                <div class="card" style="width: 20.6em;">
+            <div class="col-sm menuC">
+                <div class="card">
                     <img class="imgMenu" src="../img/pan.png" class="card-img-top" alt="pan">
                     <div class="card-body">
                         <h5 class="card-title">Selección de panes artesanos</h5>
@@ -62,8 +83,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm">
-                <div class="card" style="width: 20.6em;">
+            <div class="col-sm menuC">
+                <div class="card">
                     <img class="imgMenu" src="../img/aceitunas.png" class="card-img-top" alt="olive">
                     <div class="card-body">
                         <h5 class="card-title">Aceitunas D.O.P</h5>
@@ -71,8 +92,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm">
-                <div class="card" style="width: 20.6em;">
+            <div class="col-sm menuC">
+                <div class="card">
                     <img class="imgMenu" src="../img/garum.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Garum</h5>
@@ -83,11 +104,11 @@
         </div>
     </section>
 
-    <section class="container menuC">
+    <section class="container">
         <p class="menuCard">CARTA</p>
         <div class="row">
-            <div class="col-sm">
-                <div class="card" style="width: 20.6em;">
+            <div class="col-sm menuC">
+                <div class="card">
                     <img class="imgMenu" src="../img/albondigas.png" class="card-img-top" alt="image">
                     <div class="card-body">
                         <h5 class="card-title">Albóndigas Marineras</h5>
@@ -95,8 +116,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm">
-                <div class="card" style="width: 20.6em;">
+            <div class="col-sm menuC">
+                <div class="card">
                     <img class="imgMenu" src="../img/anchoas.png" class="card-img-top" alt="image">
                     <div class="card-body">
                         <h5 class="card-title">Anchoas fritas</h5>
@@ -104,8 +125,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm">
-                <div class="card" style="width: 20.6em;">
+            <div class="col-sm menuC">
+                <div class="card">
                     <img class="imgMenu" src="../img/lentejas.png" class="card-img-top" alt="image">
                     <div class="card-body">
                         <h5 class="card-title">Lentejas con castañas</h5>
@@ -113,8 +134,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm">
-                <div class="card" style="width: 20.6em;">
+            <div class="col-sm menuC">
+                <div class="card">
                     <img class="imgMenu" src="../img/pollo.png" class="card-img-top" alt="image">
                     <div class="card-body">
                         <h5 class="card-title">Pollo a la Numidia</h5>
@@ -125,13 +146,13 @@
         </div>
     </section>
 
-    <section class="container menuC">
+    <section class="container">
         <div>
             <p class="menuCard">POSTRES</p>
         </div>
         <div class="row">
-            <div class="col-sm">
-                <div class="card" style="width: 20.6em;">
+            <div class="col-sm menuC">
+                <div class="card">
                     <img class="imgMenu" src="../img/albaricoques.png" class="card-img-top" alt="image">
                     <div class="card-body">
                         <h5 class="card-title">Albaricoques</h5>
@@ -139,8 +160,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm">
-                <div class="card" style="width: 20.6em;">
+            <div class="col-sm menuC">
+                <div class="card">
                     <img class="imgMenu" src="../img/ciruelas.png" class="card-img-top" alt="image">
                     <div class="card-body">
                         <h5 class="card-title">Ciruelas con crema de nueces</h5>
@@ -148,8 +169,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm">
-                <div class="card" style="width: 20.6em;">
+            <div class="col-sm menuC">
+                <div class="card">
                     <img class="imgMenu" src="../img/bizcochouvas.png" class="card-img-top" alt="image">
                     <div class="card-body">
                         <h5 class="card-title">Bizcocho de uvas pasas</h5>
@@ -169,7 +190,9 @@
                     </P>
                 </div>
                 <div class="col-sm d-flex justify-content-center align-items-center">
-                    Una posibilidad única de disfrutar de la gastronomía de la antigua Roma en pleno siglo XXI. Rememorarás los sabores y gustos culinarios de nuestros ancestros en un entorno totalmente inmersivo.
+                    Una posibilidad única de disfrutar de la gastronomía de la antigua Roma en pleno siglo XXI.
+                    Rememorarás los sabores y gustos culinarios de nuestros ancestros en un entorno totalmente
+                    inmersivo.
                 </div>
                 <div class="col-sm">
                     <p>
@@ -199,8 +222,15 @@
 
 
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
