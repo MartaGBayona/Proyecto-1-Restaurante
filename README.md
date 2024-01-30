@@ -14,7 +14,7 @@ ___
 
 Realizamos una hipotética web para un establecimiento gastronómico centrado en las tradición culinaria de la antigua Roma, que lleva por nombre Aurea Mensa.
 
-## Stack :gear:
+## Stack  :gear:
 
 - HTML
 - CSS3
@@ -33,7 +33,7 @@ Realizamos una hipotética web para un establecimiento gastronómico centrado en
     - Creación de las páginas html y css.
     - Vinculación de la página de estilos a los html e importación de la documentación de Bootstrap.
     - Creación de un header y un footer para la web y enlace de todas las páginas entre sí.
-        - Inicialmente el header es poco responsive al pasarlo al formato móvil.:warning: 
+        - Inicialmente el header es poco responsive al pasarlo al formato móvil. :warning: 
         - Se crea un nuevo header que se adapta al tamaño móvil generando una hamburguesa. :white_check_mark:
     - Creación de una sección de título para las páginas.
         - Dificultad a la hora de generar un fondo con imagen con el título superpuesto. :warning: 
