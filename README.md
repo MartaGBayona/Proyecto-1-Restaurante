@@ -5,30 +5,30 @@ ___
 ## Tabla de Contenido :file_folder:
 
 1. [Descripción](#descripcion) :classical_building:
-2. [Stack](#stack) :gear:
+2. [Stack](#stack) 
 3. [Fases del proyecto](#fases-del-proyecto) :open_book:
-4. [Dirección web](#dirección-web)  :dart:
+4. [Dirección web](#dirección-web) :dart:
 5. [Autor](#autor) :point_left:
 
-## Descripción :classical_building:
+## Descripción 
 
 Realizamos una hipotética web para un establecimiento gastronómico centrado en las tradición culinaria de la antigua Roma, que lleva por nombre Aurea Mensa.
 
-## Stack  :gear:
+## Stack
 
-- HTML
-- CSS3
-- BOOTSTRAP
+- **HTML**
+- **CSS3**
+- **BOOTSTRAP**
 
 
-## Fases del proyecto :open_book:
+## Fases del proyecto 
 
- 1. Fase inicial:
+ 1. **Fase inicial:** :art:
 
     - Planteamiento de una temática factible para un posible proyecto de local de restauración.
     - Desarrollo de un croquis con el diseño del contenido de la web (Home, Menu y Contacto)
 
-2. Fase de montaje y diseño de la web:
+2. **Fase de montaje y diseño de la web:** :jigsaw:
 
     - Creación de las páginas html y css.
     - Vinculación de la página de estilos a los html e importación de la documentación de Bootstrap.
@@ -39,14 +39,14 @@ Realizamos una hipotética web para un establecimiento gastronómico centrado en
         - Dificultad a la hora de generar un fondo con imagen con el título superpuesto. :warning: 
         - Simplificación de la sección: cambio a foto simple con el título. :white_check_mark:
     - Creación de las secciones restantes para las páginas que contienen la web. 
-3. Fase de revisión:
+3. **Fase de revisión:** :dizzy:
     - Eliminación de contenido sobrante: reducción del html a únicamente 3 páginas, eliminación de imágenes sobrantes, retirada de código css inútil.
 
-## Dirección web :dart:
+## Dirección web 
 
 https://github.com/MartaGBayona/Proyecto-1-Restaurante
 
-## Autor :point_left:
+## Autor 
 
 - **Marta Gimeno Bayona**
 - [GitHub](https://github.com/MartaGBayona) - [LinkedIn](https://www.linkedin.com/in/martagbayona/)
