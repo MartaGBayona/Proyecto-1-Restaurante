@@ -5,7 +5,7 @@ ___
 ## Tabla de Contenido :file_folder:
 
 1. [Descripción](#descripcion) :classical_building:
-2. [Stack](#stack) 
+2. [Stack](#stack) :gear:
 3. [Fases del proyecto](#fases-del-proyecto) :open_book:
 4. [Dirección web](#dirección-web) :dart:
 5. [Autor](#autor) :point_left:
