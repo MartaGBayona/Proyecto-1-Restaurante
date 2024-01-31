@@ -12,7 +12,7 @@
 4. [Errores :boom:](#errores-boom)
 5. [Vista responsive de la web :mag:](#vista-responsive-de-la-web-mag) 
 6. [Dirección web :dart:](#dirección-web-dart) 
-7. [Autor:wave:](#autor-wave) 
+7. [Autor :wave:](#autor-wave) 
 ***
 
 ## Descripción :classical_building:
