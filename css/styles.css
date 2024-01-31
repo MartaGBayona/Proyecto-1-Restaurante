@@ -73,10 +73,7 @@ body {
     font-size: xx-large;
     font-weight: 700;
 }
-.cont {
-    display: flex;
-    justify-content: center;
-}
+
 
 .card-title {
     font-size: x-large;
