@@ -1,28 +1,35 @@
 
-# **Proyecto 1- Restaurante: Aurea Mensa**
-___
+<h1 align="center"> PROYECTO 1. RESTAURANTE: </h1>
+
+
+<image src="./img/titleHome.png" alt="TtituloWeb">
 
 ## Tabla de Contenido :file_folder:
 
-1. [Descripción](#descripcion) :classical_building:
-2. [Stack](#stack) :gear:
-3. [Fases del proyecto](#fases-del-proyecto) :open_book:
-4. [Vista responsive de la web](#vista-responsive-de-la-web) :mag:
-5. [Dirección web](#dirección-web) :dart:
-6. [Autor](#autor) :point_left:
+1. [Descripción :classical_building:](#descripción-classical_building)
+2. [Stack :gear:](#stack-gear) 
+3. [Fases del proyecto :open_book:](#fases-del-proyecto-open_book) 
+4. [Errores :boom:](#errores-boom)
+5. [Vista responsive de la web :mag:](#vista-responsive-de-la-web-mag) 
+6. [Dirección web :dart:](#dirección-web-dart) 
+7. [Autor:wave:](#autor-wave) 
+***
 
-## Descripción 
+## Descripción :classical_building:
 
 Realizamos una hipotética web para un establecimiento gastronómico centrado en las tradición culinaria de la antigua Roma, que lleva por nombre Aurea Mensa.
 
-## Stack
+***
+
+## Stack :gear:
 
 - **HTML**
 - **CSS3**
 - **BOOTSTRAP**
 
+***
 
-## Fases del proyecto 
+## Fases del proyecto :open_book:
 
  1. **Fase inicial:** :art:
 
@@ -42,9 +49,21 @@ Realizamos una hipotética web para un establecimiento gastronómico centrado en
     - Creación de las secciones restantes para las páginas que contienen la web. 
 3. **Fase de revisión:** :dizzy:
     - Eliminación de contenido sobrante: reducción del html a únicamente 3 páginas, eliminación de imágenes sobrantes, retirada de código css inútil.
-    - Finalmente se realiza una revisión final sobre el responsive de las grids de menu.html, se añade más contenido a esa misma sección y se regula el tiempo del carousel de index.html
+    - Finalmente se realiza una revisión final sobre el responsive de las grids de menu.html, se añade más contenido a esa misma sección y se regula el tiempo del carousel de index.html.
 
-## Vista responsive de la web
+***
+
+## Errores :boom:
+
+- No se ha conseguido colocar la botonera del header a la derecha en vista para pc.
+- No se ha conseguido establecer los títulos con imagen de fondo como se tenía planeado. Se ha reccurido a simplificación de los títulos de portada de las páginas
+- Imagen del home junto al texto, no se ha conseguido alinear al texto en vista para pc.
+- Página de menú: no se ha conseguido reducir la dimensión de las imagenes y que estas mantuvieran un estilo responsive con respecto al texto. Se opta por mantenerlas en su tamaño natural.
+- Añadir a la etiqueta body del css un display flex y modificar el width predeterminado el diseño de toda la web se quiebra. Se opta por eliminar esas características para mantener un diseño estable y responsive.
+
+***
+
+## Vista responsive de la web :mag:
 
 - Vista del Home en Pc y móvil
         <image src="./img/ejemploIndexPc.png" alt="Ejemplo vista Home en Pc">
@@ -56,11 +75,14 @@ Realizamos una hipotética web para un establecimiento gastronómico centrado en
         <image src="./img/ejemploContactoPc.png" alt="Ejemplo vista Contacto en Pc">
         <image src="./img/ejemploContactoMovil.png" alt="Ejemplo vista Contacto Móvil">
 
-## Dirección web 
+***
+
+## Dirección web :dart:
 
 https://martagbayona.github.io/Proyecto-1-Restaurante/
 
-## Autor 
+***
+## Autor :wave:
 
 - **Marta Gimeno Bayona**
 - [GitHub](https://github.com/MartaGBayona) - [LinkedIn](https://www.linkedin.com/in/martagbayona/)
