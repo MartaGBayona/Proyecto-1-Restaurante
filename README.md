@@ -7,7 +7,7 @@ ___
 1. [Descripción](#descripcion) :classical_building:
 2. [Stack](#stack) :gear:
 3. [Fases del proyecto](#fases-del-proyecto) :open_book:
-4. [Vista responsive de la web](#vista-responsive-de-la-web)
+4. [Vista responsive de la web](#vista-responsive-de-la-web) :mag:
 5. [Dirección web](#dirección-web) :dart:
 6. [Autor](#autor) :point_left:
 
@@ -42,6 +42,7 @@ Realizamos una hipotética web para un establecimiento gastronómico centrado en
     - Creación de las secciones restantes para las páginas que contienen la web. 
 3. **Fase de revisión:** :dizzy:
     - Eliminación de contenido sobrante: reducción del html a únicamente 3 páginas, eliminación de imágenes sobrantes, retirada de código css inútil.
+    - Finalmente se realiza una revisión final sobre el responsive de las grids de menu.html, se añade más contenido a esa misma sección y se regula el tiempo del carousel de index.html
 
 ## Vista responsive de la web
 
@@ -49,7 +50,7 @@ Realizamos una hipotética web para un establecimiento gastronómico centrado en
         <image src="./img/ejemploIndexPc.png" alt="Ejemplo vista Home en Pc">
         <image src="./img/ejemploIndexPhone.png" alt="Ejemplo vista Home Móvil">
 - Vista de la Carta en Pc y móvil
-        <image src="./img/ejemploCartaPc.png" alt="Ejemplo vista Carta en Pc">
+        <image src="./img/ejCartaPc.png" alt="Ejemplo vista Home en Pc">
         <image src="./img/ejemploCartaMovil.png" alt="Ejemplo vista Carta Móvil">
 - Vista de Contacto en Pc y móvil
         <image src="./img/ejemploContactoPc.png" alt="Ejemplo vista Contacto en Pc">
