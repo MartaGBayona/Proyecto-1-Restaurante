@@ -7,8 +7,9 @@ ___
 1. [Descripción](#descripcion) :classical_building:
 2. [Stack](#stack) :gear:
 3. [Fases del proyecto](#fases-del-proyecto) :open_book:
-4. [Dirección web](#dirección-web) :dart:
-5. [Autor](#autor) :point_left:
+4. [Vista responsive de la web](#vista-responsive-de-la-web)
+5. [Dirección web](#dirección-web) :dart:
+6. [Autor](#autor) :point_left:
 
 ## Descripción 
 
@@ -42,9 +43,21 @@ Realizamos una hipotética web para un establecimiento gastronómico centrado en
 3. **Fase de revisión:** :dizzy:
     - Eliminación de contenido sobrante: reducción del html a únicamente 3 páginas, eliminación de imágenes sobrantes, retirada de código css inútil.
 
+## Vista responsive de la web
+
+- Vista del Home en Pc y móvil
+        <image src="./img/ejemploIndexPc.png" alt="Ejemplo vista Home en Pc">
+        <image src="./img/ejemploIndexPhone.png" alt="Ejemplo vista Home Móvil">
+- Vista de la Carta en Pc y móvil
+        <image src="./img/ejemploCartaPc.png" alt="Ejemplo vista Carta en Pc">
+        <image src="./img/ejemploCartaMovil.png" alt="Ejemplo vista Carta Móvil">
+- Vista de Contacto en Pc y móvil
+        <image src="./img/ejemploContactoPc.png" alt="Ejemplo vista Contacto en Pc">
+        <image src="./img/ejemploContactoMovil.png" alt="Ejemplo vista Contacto Móvil">
+
 ## Dirección web 
 
-https://github.com/MartaGBayona/Proyecto-1-Restaurante
+https://martagbayona.github.io/Proyecto-1-Restaurante/
 
 ## Autor 
 
